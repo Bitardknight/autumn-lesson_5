@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital@0;1&display=swap');
+@font-face{
+    font-family:"Golos-UI" ;
+src: url('../fonts/Golos-UI_Medium.woff2') format("woff2"),  url('../fonts/Golos-UI_Medium.woff') format("woff");
+ font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+
+}
+
+
+
+
+
+
+.first{
+    font-family: "Rubik";
+    font-weight: 400;
+}
+
+.enemies {
+    font-family: "Roboto";
+   font-weight: 700;
+   font-style: italic;
+}   
+
+.about, .characters{
+color:blue;
+text-decoration: underline;
+}
+
+ul > li{
+    text-decoration: overline;
+}
+.special{
+    text-shadow: 2px 5px 3px ;
+}
+.magic{
+    font-family: "Rubik";
+    font-weight: 400; 
+text-transform: capitalize;
+}
+.sphere{
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.strategy{
+    color:green;
+    font-size: 24px;
+line-height: 1.5;
+}
+.warriors{
+letter-spacing: 10px;
+}
+p{
+    background-color: red;
+    padding: 10px 15px 12px 20px;
+}
+.last{
+    margin:15px 30px;
+    font-family:"Golos-UI" ;
+    font-weight: 500;
+}
